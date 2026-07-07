@@ -7,6 +7,7 @@ const { generateToken } = require('../utils/jwt');
  * POST /api/auth/register
  * Equivalent to AuthService.register() + AuthController.register()
  */
+//authcontroller
 async function register(req, res, next) {
   try {
     const { username, email, password } = req.body;
