@@ -5,6 +5,8 @@ const { Task, Project } = require('../models');
  * GET /api/tasks?projectId=1
  * Equivalent to TaskService.getTasksByProject()
  */
+
+// TODO: add pagination here
 async function getTasksByProject(req, res, next) {
   try {
     const { projectId } = req.query;
