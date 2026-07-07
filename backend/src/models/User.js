@@ -1,4 +1,5 @@
 // src/models/User.js
+//user git 
 const { DataTypes } = require('sequelize');
 const sequelize = require('../config/database');
 
