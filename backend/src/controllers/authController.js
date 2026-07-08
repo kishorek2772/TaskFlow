@@ -8,6 +8,7 @@ const { generateToken } = require('../utils/jwt');
  * Equivalent to AuthService.register() + AuthController.register()
  */
 //authcontroller
+// half done work — not ready to commit
 async function register(req, res, next) {
   try {
     const { username, email, password } = req.body;
