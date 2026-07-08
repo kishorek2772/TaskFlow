@@ -5,6 +5,7 @@ const { Project, Task } = require('../models');
  * GET /api/projects
  * Equivalent to ProjectService.getAllProjects()
  */
+//hello bro
 async function getAllProjects(req, res, next) {
   try {
     const projects = await Project.findAll({
